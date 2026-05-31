@@ -18,6 +18,22 @@
       },
       "registered_skills": [],
       "installed_at": "2026-05-31T16:42:03.991680+00:00"
+    },
+    "agent-assign": {
+      "version": "1.1.0",
+      "source": "https://github.com/xymelon/spec-kit-agent-assign/archive/refs/heads/main.zip",
+      "manifest_hash": "sha256:a6172052d4a0d2978743feae05923aae7befcd946438f4c6b45250a47fc16d84",
+      "enabled": true,
+      "priority": 10,
+      "registered_commands": {
+        "copilot": [
+          "speckit.agent-assign.assign",
+          "speckit.agent-assign.validate",
+          "speckit.agent-assign.execute"
+        ]
+      },
+      "registered_skills": [],
+      "installed_at": "2026-05-31T19:22:00.000000+00:00"
     }
   }
 }
