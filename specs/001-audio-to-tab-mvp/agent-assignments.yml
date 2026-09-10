@@ -1,0 +1,281 @@
+# Agent Assignments
+# Feature: audio-to-tab-mvp
+# Generated: 2026-05-31
+# Command: /speckit.agent-assign.assign
+
+agents_scanned:
+  - name: "Frontend Developer"
+    source: "user"
+    description: "Expert frontend developer specializing in modern web technologies, React/Vue/Angular frameworks, UI implementation, and performance optimization"
+  - name: "Backend Architect"
+    source: "user"
+    description: "Senior backend architect specializing in scalable system design, database architecture, API development, and cloud infrastructure"
+  - name: "AI Engineer"
+    source: "user"
+    description: "Expert AI/ML engineer specializing in machine learning model development, deployment, and integration into production systems"
+  - name: "DevOps Automator"
+    source: "user"
+    description: "Expert DevOps engineer specializing in infrastructure automation, CI/CD pipeline development, and cloud operations"
+  - name: "Software Architect"
+    source: "user"
+    description: "Expert software architect specializing in system design, domain-driven design, architectural patterns, and technical decision-making"
+  - name: "Rapid Prototyper"
+    source: "user"
+    description: "Specialized in ultra-fast proof-of-concept development and MVP creation using efficient tools and frameworks"
+
+assignments:
+  T001:
+    agent: "engineering-frontend-developer"
+    reason: "Vite + React + TypeScript project scaffolding is core frontend setup work"
+  T002:
+    agent: "engineering-frontend-developer"
+    reason: "Frontend core dependency management"
+  T003:
+    agent: "engineering-frontend-developer"
+    reason: "Frontend dev tooling setup (Vitest, Testing Library, Tailwind, ESLint)"
+  T004:
+    agent: "engineering-frontend-developer"
+    reason: "TypeScript strict mode config is a frontend concern"
+  T005:
+    agent: "engineering-frontend-developer"
+    reason: "Tailwind CSS design tokens and index.css are frontend styling concerns"
+  T006:
+    agent: "engineering-frontend-developer"
+    reason: "ESLint + Prettier configuration for frontend TypeScript codebase"
+  T007:
+    agent: "engineering-frontend-developer"
+    reason: "Vitest configuration for frontend testing environment"
+  T008:
+    agent: "engineering-devops-automator"
+    reason: "PWA service worker and manifest configuration is a deployment/infra concern"
+  T009:
+    agent: "default"
+    reason: "General folder scaffolding, no specialized agent needed"
+  T010:
+    agent: "engineering-frontend-developer"
+    reason: "shadcn/ui + Radix UI component library setup is frontend UI work"
+  T011:
+    agent: "engineering-frontend-developer"
+    reason: "TypeScript type definitions for frontend data models"
+  T012:
+    agent: "engineering-frontend-developer"
+    reason: "TypeScript type definitions for transcription domain"
+  T013:
+    agent: "engineering-frontend-developer"
+    reason: "TypeScript type definitions for guitar tab domain"
+  T014:
+    agent: "engineering-frontend-developer"
+    reason: "TypeScript type definitions for confidence reporting"
+  T015:
+    agent: "engineering-frontend-developer"
+    reason: "TypeScript type definitions for playback state"
+  T016:
+    agent: "engineering-frontend-developer"
+    reason: "Frontend audio constants file"
+  T017:
+    agent: "engineering-frontend-developer"
+    reason: "Frontend guitar constants file"
+  T018:
+    agent: "engineering-frontend-developer"
+    reason: "Frontend processing constants file"
+  T019:
+    agent: "engineering-frontend-developer"
+    reason: "IndexedDB is a browser-side storage concern, frontend service layer"
+  T020:
+    agent: "engineering-frontend-developer"
+    reason: "Browser-side CRUD repository pattern"
+  T021:
+    agent: "engineering-frontend-developer"
+    reason: "Frontend module barrel export"
+  T022:
+    agent: "engineering-frontend-developer"
+    reason: "React Router configuration is a frontend routing concern"
+  T023:
+    agent: "engineering-frontend-developer"
+    reason: "React context + useReducer pattern for frontend state management"
+  T024:
+    agent: "engineering-frontend-developer"
+    reason: "React context + useReducer pattern for frontend state management"
+  T025:
+    agent: "engineering-frontend-developer"
+    reason: "React app entry point and provider composition"
+  T026:
+    agent: "engineering-backend-architect"
+    reason: "FastAPI server application with REST endpoints — backend Python service"
+  T027:
+    agent: "engineering-ai-engineer"
+    reason: "Demucs ML model integration for audio source separation"
+  T028:
+    agent: "engineering-backend-architect"
+    reason: "Python dependency management for backend separation service"
+  T029:
+    agent: "engineering-devops-automator"
+    reason: "Dockerfile for containerized service deployment"
+  T030:
+    agent: "engineering-frontend-developer"
+    reason: "TypeScript HTTP client service calling the separation API"
+  T031:
+    agent: "engineering-frontend-developer"
+    reason: "Frontend module barrel export"
+  T032:
+    agent: "engineering-ai-engineer"
+    reason: "Basic Pitch ML model integration for pitch transcription"
+  T033:
+    agent: "engineering-frontend-developer"
+    reason: "Frontend module barrel export"
+  T034:
+    agent: "engineering-ai-engineer"
+    reason: "MIDI-to-guitar fret mapping algorithm involving music theory and audio domain knowledge"
+  T035:
+    agent: "engineering-frontend-developer"
+    reason: "AlphaTex markup generation for tab rendering — frontend format concern"
+  T036:
+    agent: "engineering-frontend-developer"
+    reason: "TypeScript service orchestration layer"
+  T037:
+    agent: "engineering-frontend-developer"
+    reason: "Frontend module barrel export"
+  T038:
+    agent: "engineering-frontend-developer"
+    reason: "Frontend processing pipeline orchestrating browser-side services"
+  T039:
+    agent: "engineering-frontend-developer"
+    reason: "Frontend module barrel export"
+  T040:
+    agent: "engineering-frontend-developer"
+    reason: "React drag-and-drop file upload component"
+  T041:
+    agent: "engineering-frontend-developer"
+    reason: "Frontend module barrel export"
+  T042:
+    agent: "engineering-frontend-developer"
+    reason: "React progress indicator component"
+  T043:
+    agent: "engineering-frontend-developer"
+    reason: "Frontend module barrel export"
+  T044:
+    agent: "engineering-frontend-developer"
+    reason: "alphaTab third-party library wrapper integration"
+  T045:
+    agent: "engineering-frontend-developer"
+    reason: "React component wrapping alphaTab for guitar tab display"
+  T046:
+    agent: "engineering-frontend-developer"
+    reason: "Frontend module barrel export"
+  T047:
+    agent: "engineering-frontend-developer"
+    reason: "React page component for file upload flow"
+  T048:
+    agent: "engineering-frontend-developer"
+    reason: "Frontend module barrel export"
+  T049:
+    agent: "engineering-frontend-developer"
+    reason: "React page component for song viewer with processing state handling"
+  T050:
+    agent: "engineering-frontend-developer"
+    reason: "Frontend module barrel export"
+  T051:
+    agent: "engineering-frontend-developer"
+    reason: "React custom hook for processing context subscription"
+  T052:
+    agent: "engineering-frontend-developer"
+    reason: "Browser IndexedDB repository extension"
+  T053:
+    agent: "engineering-frontend-developer"
+    reason: "React component triggering browser download from IndexedDB blob"
+  T054:
+    agent: "engineering-frontend-developer"
+    reason: "Frontend module barrel export"
+  T055:
+    agent: "engineering-frontend-developer"
+    reason: "React page integration of download feature"
+  T056:
+    agent: "engineering-frontend-developer"
+    reason: "alphaTab alphaSynth MIDI player configuration — frontend lib integration"
+  T057:
+    agent: "engineering-frontend-developer"
+    reason: "React custom hook for MIDI playback control"
+  T058:
+    agent: "engineering-frontend-developer"
+    reason: "React playback controls component (play/pause/seek)"
+  T059:
+    agent: "engineering-frontend-developer"
+    reason: "Frontend module barrel export"
+  T060:
+    agent: "engineering-frontend-developer"
+    reason: "React component enhancement for animated cursor and auto-scroll"
+  T061:
+    agent: "engineering-frontend-developer"
+    reason: "React page integration of playback controls"
+  T062:
+    agent: "engineering-ai-engineer"
+    reason: "Spectral analysis algorithm (flatness, zero-crossing rate, pitch variance) — audio ML domain"
+  T063:
+    agent: "engineering-frontend-developer"
+    reason: "Frontend module barrel export"
+  T064:
+    agent: "engineering-frontend-developer"
+    reason: "Integration of confidence analyzer into frontend processing pipeline"
+  T065:
+    agent: "engineering-frontend-developer"
+    reason: "React component for confidence score display with colored badges"
+  T066:
+    agent: "engineering-frontend-developer"
+    reason: "Frontend module barrel export"
+  T067:
+    agent: "engineering-frontend-developer"
+    reason: "React page integration of confidence display"
+  T068:
+    agent: "engineering-frontend-developer"
+    reason: "React hook enhancement for listening mode switching"
+  T069:
+    agent: "engineering-frontend-developer"
+    reason: "Web Audio API AudioBufferSourceNode — browser audio API, frontend concern"
+  T070:
+    agent: "engineering-frontend-developer"
+    reason: "React UI control for listening mode selection"
+  T071:
+    agent: "engineering-frontend-developer"
+    reason: "React context synchronization for dual audio streams"
+  T072:
+    agent: "engineering-frontend-developer"
+    reason: "React custom hook for IndexedDB song library management"
+  T073:
+    agent: "engineering-frontend-developer"
+    reason: "React card component for song list display"
+  T074:
+    agent: "engineering-frontend-developer"
+    reason: "Frontend module barrel export"
+  T075:
+    agent: "engineering-frontend-developer"
+    reason: "React page component for song library with empty state and delete dialog"
+  T076:
+    agent: "engineering-frontend-developer"
+    reason: "Frontend module barrel export"
+  T077:
+    agent: "engineering-frontend-developer"
+    reason: "React navigation header component"
+  T078:
+    agent: "engineering-devops-automator"
+    reason: "PWA icons and manifest configuration — deployment asset concern"
+  T079:
+    agent: "engineering-frontend-developer"
+    reason: "Frontend error handling for offline/unavailable service"
+  T080:
+    agent: "engineering-frontend-developer"
+    reason: "React ErrorBoundary component"
+  T081:
+    agent: "engineering-frontend-developer"
+    reason: "Frontend accessibility audit across all React components"
+  T082:
+    agent: "engineering-frontend-developer"
+    reason: "Responsive CSS breakpoints for all pages"
+  T083:
+    agent: "engineering-devops-automator"
+    reason: "Lighthouse PWA/performance audit — deployment quality gate"
+  T084:
+    agent: "default"
+    reason: "General validation task — run quickstart instructions end-to-end"
+  T085:
+    agent: "engineering-frontend-developer"
+    reason: "Frontend code cleanup, lint enforcement, and file size validation"
