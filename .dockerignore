@@ -1,0 +1,13 @@
+node_modules
+dist
+dist-ssr
+.git
+.vscode
+.specify
+specs
+coverage
+*.md
+.env
+.env.*
+__pycache__
+.venv

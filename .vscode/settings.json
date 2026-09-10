@@ -11,6 +11,6 @@
         ".specify/scripts/powershell/": true
     },
     "chat.editing.autoAcceptDelay": 2,
-    "chat.agent.maxRequests": 50
+    "chat.agent.maxRequests": 100
 }
 
